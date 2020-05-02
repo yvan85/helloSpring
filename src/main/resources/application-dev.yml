@@ -1,0 +1,6 @@
+server:
+  port: 9091
+
+boot:
+  name: 学洒脱
+  age: 8

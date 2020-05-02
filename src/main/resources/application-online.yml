@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+boot:
+  name: 洒脱
+  age: 18

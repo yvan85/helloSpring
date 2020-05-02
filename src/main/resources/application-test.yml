@@ -1,0 +1,6 @@
+server:
+  port: 9090
+
+boot:
+  name: 洒脱中
+  age: 16

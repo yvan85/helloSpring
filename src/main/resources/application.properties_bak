@@ -1,0 +1,12 @@
+#spring.profiles.active=test
+spring.http.encoding.charset=UTF-8
+spring.http.encoding.enabled=true
+spring.http.encoding.force=true
+
+server.servlet.context-path=/zy
+server.port=8080
+
+boot.name=洒不脱
+boot.age=8
+
+

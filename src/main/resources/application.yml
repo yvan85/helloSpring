@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: test
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+
+
+server:
+  servlet:
+    context-path: /zy
