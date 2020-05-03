@@ -20,20 +20,23 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class ConfigInfoController {
 
-    @Value("${boot.name}")
-    private String name;
-
-    @Value("${boot.age}")
-    private String age;
+//    @Value("${boot.name}")
+//    private String name;
+//
+//    @Value("${boot.age}")
+//    private String age;
 
     @Autowired
     private ConfigInfo_Prefix configInfo_prefix;
 
-    @RequestMapping("/boot")
-    public @ResponseBody String configinfo() {
+//    @RequestMapping("/boot")
+//    public @ResponseBody String configinfo() {
+//
+//        return name+"----"+age;
+//    }
 
-        return name+"----"+age;
-    }
+
+    
 
     @RequestMapping("/prefix")
     public @ResponseBody String configinfoPrefix() {
