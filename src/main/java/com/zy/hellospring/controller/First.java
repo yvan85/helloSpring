@@ -4,9 +4,11 @@ package com.zy.hellospring.controller;/*
 *创建时间:2020/4/11 12:52
 *描述: TODO
 */
+import com.zy.hellospring.bean.EE.HouseimportBean;
 
 import com.zy.hellospring.bean.APIRes;
 import com.zy.hellospring.bean.CC;
+import com.zy.hellospring.bean.EE;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
@@ -38,6 +40,9 @@ public class First {
         cc.setCc1("c1111");
         cc.setCc2("c2222");
         apiRes.setCc(cc);
+
+        
+
 
         return apiRes;
     }
