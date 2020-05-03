@@ -24,7 +24,7 @@ public class ConfigInfoController {
 //    private String name;
 //
 //    @Value("${boot.age}")
-//    private String age;
+//    private String age;  
 
     @Autowired
     private ConfigInfo_Prefix configInfo_prefix;
